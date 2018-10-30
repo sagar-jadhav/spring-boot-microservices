@@ -30,6 +30,10 @@ Pull requests are welcome. I will appreciate any help on improving/enhancing the
 * [Account Endpoint Test](https://github.com/sagar-jadhav/spring-boot-microservices/blob/master/endpoint-tests/src/test/java/com/developers/thought/endpoint/tests/EndpointTest.java)
 * [Postman Collection](https://github.com/sagar-jadhav/spring-boot-microservices/blob/master/postman_collection.json)
 
+## Youtube Tutorials
+
+* [Spring Boot Micro Service Series](https://www.youtube.com/playlist?list=PL8NEsKyvtj7srK6_EBsuE7SFjYnnucnLl)
+
 ## Steps to Run Spring Boot based Account REST API
 
 * Go to api directory. for e.g. cd <PATH_TO_CLONED_DIRECTORY>/api
@@ -48,4 +52,4 @@ Pull requests are welcome. I will appreciate any help on improving/enhancing the
 * Run **./gradlew clean build test**
 * Open file://<PATH_TO_CLONED_DIRECTORY>/endpoint-tests/build/reports/tests/test/index.html in any browser to view the test report
 
-
+**Note**: [Subscribe](https://www.youtube.com/channel/UC72a--fChlkj5f-7jQhZuiw?sub_confirmation=1) to watch technological videos on different trending technologies
