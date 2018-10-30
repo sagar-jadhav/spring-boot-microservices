@@ -8,7 +8,8 @@ Clone [spring-boot-microservices](git@github.com:sagar-jadhav/spring-boot-micros
 ## Prerequisites
 
 To run Spring Boot based Account REST API it is prerequisite to have Java 8 installed on your machine.
-[Steps to Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
+[Steps to Install Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 ## Contributing
 
@@ -27,4 +28,23 @@ Pull requests are welcome. I will appreciate any help on either enhancing existi
 * [Account Controller Unit Test](https://github.com/sagar-jadhav/spring-boot-microservices/blob/master/api/src/test/java/com/developers/thought/controller/AccountControllerTest.java)
 * [Account Service Unit Test](https://github.com/sagar-jadhav/spring-boot-microservices/tree/master/api/src/test/java/com/developers/thought/service)
 * [Account Endpoint Test](https://github.com/sagar-jadhav/spring-boot-microservices/blob/master/endpoint-tests/src/test/java/com/developers/thought/endpoint/tests/EndpointTest.java)
+
+## Steps to Run the Spring Boot based Account REST API
+
+* Go to api directory. for e.g. cd <PATH_TO_CLONED_DIRECTORY>/api
+* Run **./gradlew clean build**
+* Run **java -jar ./build/libs/api-1.0.0.jar
+
+## Steps to Run the Unit Test & Generate Jacoco test coverage report
+
+* Go to api directory. for e.g. cd <PATH_TO_CLONED_DIRECTORY>/api
+* Run **./gradlew clean build test**
+* Open file://<PATH_TO_CLONED_DIRECTORY>/api/build/reports/jacoco/test/html/index.html in any browser to view the coverage report 
+
+## Steps to Run the Endpoint Tests
+
+* Go to endpoint-tests directory. for e.g. cd <PATH_TO_CLONED_DIRECTORY>/endpoint-tests
+* Run **./gradlew clean build test**
+* Open file://<PATH_TO_CLONED_DIRECTORY>/endpoint-tests/build/reports/tests/test/index.html in any browser to view the test report
+
 
