@@ -1,6 +1,6 @@
 # spring-boot-microservices
 
-The purpose of **spring-boot-microservices** project is to learn how to build a microservice using Spring Boot Framework. **spring-boot-microservices** project contains **api** & **endpoint-tests** sub projects. **api** project contains the implementation of Account REST API using Spring Boot.As part of implementation CRUD operation is implemented and H2 database is integrated using JPA also unit tests are implemented using **junit, mockito & jacoco** frameworks.**endpoint-tests** project contains the integration test implemented using **Rest-Assured**.
+The purpose of **spring-boot-microservices** project is to learn how to build a microservice using Spring Boot Framework. **spring-boot-microservices** project contains **api** & **endpoint-tests** sub projects.The **api** project contains the implementation of Account REST API using Spring Boot.As part of implementation CRUD operation is implemented and H2 database is integrated using JPA also unit tests are implemented using **junit, mockito & jacoco** frameworks.The **endpoint-tests** project contains the integration test implemented using **Rest-Assured**.
 
 ## Getting Started
 Clone [spring-boot-microservices](https://github.com/sagar-jadhav/spring-boot-microservices.git) and open **api** & **endpoint-tests** with [Spring Tool Suite](https://spring.io/tools3/sts) you can use any other IDE as well.
@@ -26,7 +26,7 @@ Pull requests are welcome. I will appreciate any help on improving/enhancing the
 * [Account Repository](https://github.com/sagar-jadhav/spring-boot-microservices/blob/master/api/src/main/java/com/developers/thought/repository/AccountRepository.java)
 * [Account Model](https://github.com/sagar-jadhav/spring-boot-microservices/blob/master/api/src/main/java/com/developers/thought/model/Account.java)
 * [Account Controller Unit Test](https://github.com/sagar-jadhav/spring-boot-microservices/blob/master/api/src/test/java/com/developers/thought/controller/AccountControllerTest.java)
-* [Account Service Unit Test](https://github.com/sagar-jadhav/spring-boot-microservices/tree/master/api/src/test/java/com/developers/thought/service)
+* [Account Service Unit Test](https://github.com/sagar-jadhav/spring-boot-microservices/blob/master/api/src/test/java/com/developers/thought/service/AccountServiceTest.java)
 * [Account Endpoint Test](https://github.com/sagar-jadhav/spring-boot-microservices/blob/master/endpoint-tests/src/test/java/com/developers/thought/endpoint/tests/EndpointTest.java)
 * [Postman Collection](https://github.com/sagar-jadhav/spring-boot-microservices/blob/master/postman_collection.json)
 
