@@ -25,5 +25,13 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+    
+    // Rest Assured
+    testCompile 'io.rest-assured:rest-assured:3.2.0'
+    
+}
+
+test {
+  testLogging.showStandardStreams  true
 }
 
