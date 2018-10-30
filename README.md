@@ -34,9 +34,9 @@ Pull requests are welcome. I will appreciate any help on improving/enhancing the
 
 * Go to api directory. for e.g. cd <PATH_TO_CLONED_DIRECTORY>/api
 * Run **./gradlew clean build**
-* Run **java -jar ./build/libs/api-1.0.0.jar
+* Run **java -jar ./build/libs/api-1.0.0.jar**
 
-## Steps to Run Unit Test & Generate Jacoco test coverage report
+## Steps to Run Unit Test & Generate Jacoco Test coverage report
 
 * Go to api directory. for e.g. cd <PATH_TO_CLONED_DIRECTORY>/api
 * Run **./gradlew clean build test**
