@@ -1,0 +1,11 @@
+FROM java:8
+
+RUN mkdir /code
+
+COPY ./api /code
+
+WORKDIR /code
+
+RUN ./gradlew clean build
+
+ENTRYPOINT ["java", "-jar", "./build/libs/api-1.0.0.jar"]
