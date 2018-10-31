@@ -66,7 +66,7 @@ Pull requests are welcome. I will appreciate any help on improving/enhancing the
 
 * Go to cloned directory. for e.g. cd <PATH_TO_CLONED_DIRECTORY>/
 * Run docker build -t [NAME OF IMAGE]:[TAG] -f api_dockerfile . for e.g. docker build -t spring_boot_microservice:v1 -f api_dockerfile .
-* Verify by running command docker images. After running this command you will newly created image listed here.
+* Verify by running command docker images. After running this command you will see newly created image listed here.
 
 ## Steps to Run Docker Image
 
