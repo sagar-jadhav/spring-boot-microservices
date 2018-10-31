@@ -65,11 +65,11 @@ Pull requests are welcome. I will appreciate any help on improving/enhancing the
 ## Steps to Build Docker Image
 
 * Go to cloned directory. for e.g. cd <PATH_TO_CLONED_DIRECTORY>/
-* Run docker build -t <NAME OF IMAGE>:<TAG> -f api_dockerfile . for e.g. docker build -t spring_boot_microservice:v1 -f api_dockerfile .
+* Run docker build -t [NAME OF IMAGE]:[TAG] -f api_dockerfile . for e.g. docker build -t spring_boot_microservice:v1 -f api_dockerfile .
 * Verify by running command docker images. After running this command you will newly created image listed here.
 
 ## Steps to Run Docker Image
 
-* Run docker run -p 8080:8080 <NAME OF IMAGE>:<TAG> for e.g. docker run -p 8080:8080 spring_boot_microservice:v1
+* Run docker run -p 8080:8080 [NAME OF IMAGE]:[TAG] for e.g. docker run -p 8080:8080 spring_boot_microservice:v1
 
 **Note**: [Subscribe](https://www.youtube.com/channel/UC72a--fChlkj5f-7jQhZuiw?sub_confirmation=1) to watch technological videos on different trending technologies
