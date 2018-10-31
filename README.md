@@ -10,6 +10,7 @@ Clone [spring-boot-microservices](https://github.com/sagar-jadhav/spring-boot-mi
 To run Spring Boot based Account REST API it is prerequisite to have Java 8 & Docker installed on your machine.
 
 [Steps to Install Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
 [Steps to Install Docker](https://docs.docker.com/install/)
 
 ## Contributing
@@ -55,7 +56,7 @@ Pull requests are welcome. I will appreciate any help on improving/enhancing the
 
 ## Steps to Build Docker Image
 
-* Go to endpoint-tests directory. for e.g. cd <PATH_TO_CLONED_DIRECTORY>/
+* Go to cloned directory. for e.g. cd <PATH_TO_CLONED_DIRECTORY>/
 * Run **docker build -t <NAME_OF_IMAGE>:<TAG> -f api_dockerfile .** for e.g. docker build -t spring_boot_microservice:v1 -f api_dockerfile .
 * Verify by running **docker images** command. After running this command you will newly created image listed here.
 
