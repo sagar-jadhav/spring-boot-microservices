@@ -1,10 +1,10 @@
 FROM java:8
 
-RUN mkdir /code
+RUN mkdir /src_code
 
-COPY ./api /code
+COPY ./api /src_code
 
-WORKDIR /code
+WORKDIR /src_code
 
 RUN ./gradlew clean build
 
