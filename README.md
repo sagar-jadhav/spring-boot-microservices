@@ -5,6 +5,7 @@ The purpose of **spring-boot-microservices** project is to learn how to build a 
 ## Project Highlights
 
 * API
+* H2 Database Integration using JPA
 * Unit Tests
 * Endpoint Tests
 * Dockerfile
